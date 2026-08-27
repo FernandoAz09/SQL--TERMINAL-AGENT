@@ -1,6 +1,6 @@
 import { DatabaseSync } from "node:sqlite";
 
-export function createDB(path = "::memory:") {
+export function createDb(path = ":memory:") {
     const db = new DatabaseSync(path);
 
     db.exec(`
@@ -21,4 +21,4 @@ export function createDB(path = "::memory:") {
     return db;
 }
 
-const db = createDB("access_logs.db");
+const db = createDb("access_logs.db");

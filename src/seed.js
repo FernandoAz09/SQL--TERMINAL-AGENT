@@ -20,7 +20,7 @@ const stream = createWriteStream(LOG_FILE);
 function generateUser() {
     return {
         ip: faker.internet.ip(),
-        username: faker.internet.username(),
+        username: faker.internet.userName(),
         firstName: faker.person.firstName(),
         lastName: faker.person.lastName(),
         email: faker.internet.email(),
@@ -28,7 +28,6 @@ function generateUser() {
         job_area: faker.person.jobArea(),
         company: faker.company.name(),
         job_title: faker.person.jobTitle(),
-        id: faker.string.uuid(),
     };
 }
 
@@ -36,6 +35,7 @@ function generateUser() {
 function generateLogEntry(user) {
     return {
         ...user,
+        id: faker.string.uuid(),
         timestamp: faker.date.recent().toISOString(),
     };
 }
