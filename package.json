@@ -2,7 +2,7 @@
   "name": "nodejs-nivel1-modulo4",
   "version": "1.0.0",
   "scripts": {
-    "": ""
+    "seed": "node src/seed.js"
   },
   "license": "ISC",
   "type": "module",
