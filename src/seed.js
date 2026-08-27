@@ -20,14 +20,14 @@ const stream = createWriteStream(LOG_FILE);
 function generateUser() {
     return {
         ip: faker.internet.ip(),
-        username: faker.internet.userName(),
-        firstName: faker.name.firstName(),
-        lastName: faker.name.lastName(),
+        username: faker.internet.username(),
+        firstName: faker.person.firstName(),
+        lastName: faker.person.lastName(),
         email: faker.internet.email(),
-        location: faker.address.city(),
-        job_area: faker.name.jobArea(),
+        location: faker.location.city(),
+        job_area: faker.person.jobArea(),
         company: faker.company.name(),
-        job_title: faker.name.jobTitle(),
+        job_title: faker.person.jobTitle(),
         id: faker.string.uuid(),
     };
 }
