@@ -1,46 +1,41 @@
 # SQL Terminal Agent
 
-SQL Terminal Agent é um projeto em JavaScript que simula um agente de terminal voltado para o universo SQL, com foco em produtividade, automação e aprendizado prático.
+![GitHub repo size](https://img.shields.io/github/repo-size/FernandoAz09/SQL--TERMINAL-AGENT?color=blue)
+![GitHub language count](https://img.shields.io/github/languages/count/FernandoAz09/SQL--TERMINAL-AGENT?color=blue)
+![License](https://img.shields.io/github/license/FernandoAz09/SQL--TERMINAL-AGENT?color=blue)
 
-## 🚀 Sobre o projeto
+## 📌 Descrição
 
-Este projeto foi desenvolvido como parte do aprendizado e prática de desenvolvimento com JavaScript, trazendo uma experiência inspirada em ferramentas de terminal para auxiliar na organização e execução de comandos relacionados a SQL.
+O **SQL Terminal Agent** é um projeto em JavaScript que simula um agente de terminal voltado para o universo SQL, com foco em produtividade, automação e aprendizado prático.
 
-A proposta é explorar:
-- interação via terminal
-- automação de tarefas
-- estruturação de comandos
-- organização de consultas SQL
+Este projeto foi desenvolvido para explorar conceitos como interação via terminal, organização de comandos e estruturação de consultas SQL de forma simples e intuitiva.
 
-## 📌 Funcionalidades
+## 🚀 Funcionalidades
 
 - Execução de comandos via terminal
 - Simulação de fluxo de agente para SQL
 - Estrutura base para automação de tarefas
 - Projeto leve e fácil de expandir
 
-## 🛠️ Tecnologias utilizadas
+## 🛠️ Tecnologias
 
 - JavaScript
 - Node.js
 
-## ▶️ Como executar o projeto
+## ▶️ Como executar
 
 ### Pré-requisitos
 - Node.js instalado na máquina
 
-### Passos
+### Instalação
 ```bash
-# clone o repositório
 git clone https://github.com/FernandoAz09/SQL--TERMINAL-AGENT.git
-
-# entre na pasta do projeto
 cd SQL--TERMINAL-AGENT
-
-# instale as dependências
 npm install
+```
 
-# execute o projeto
+### Execução
+```bash
 npm run dev
 ```
 
@@ -55,7 +50,7 @@ npm run dev
 
 ## 🎯 Objetivo
 
-O objetivo do projeto é servir como base para estudos e evolução de uma ferramenta de terminal voltada para SQL, podendo futuramente receber novas funcionalidades como:
+Servir como base para estudos e evolução de uma ferramenta de terminal voltada para SQL, podendo futuramente receber:
 
 - conexão com banco de dados
 - validação de queries
@@ -65,7 +60,7 @@ O objetivo do projeto é servir como base para estudos e evolução de uma ferra
 
 ## 📚 Aprendizados
 
-Durante o desenvolvimento, foram trabalhados conceitos importantes como:
+Durante o desenvolvimento, foram praticados conceitos importantes como:
 - organização de projeto em JavaScript
 - lógica de automação
 - estruturação de aplicação de terminal
